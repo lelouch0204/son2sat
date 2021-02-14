@@ -50,7 +50,7 @@ datasets
 
 Below is a download link for the ARACATI 2017 dataset used in the papers, if you use it, please cite one of the following (or both):
 * [Conference Paper](https://ieeexplore.ieee.org/abstract/document/8614099)
-* [Journal]()
+* [Journal](https://doi.org/10.1007/s10846-021-01324-2)
 
 [Download ARACATI 2017 Dataset](https://drive.google.com/file/d/1R-tcU67vl_jnnhqvbuE3gMJ9LfOREUpm/view?usp=sharing)
 
