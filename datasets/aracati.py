@@ -8,8 +8,10 @@ import glob
 import numpy as np
 import tensorflow as tf
 
-from scipy.misc import imread, imresize, imsave
-
+##from scipy.misc import imread, imresize, imsave
+from cv2 import imread
+from cv2 import resize as imresize
+from cv2 import imwrite as imsave
 
 class Aracati(object):
     def __init__(self, config):
