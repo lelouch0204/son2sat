@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import glob
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 ##from scipy.misc import imread, imresize, imsave
 from cv2 import imread
