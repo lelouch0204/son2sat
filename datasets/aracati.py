@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import glob
 import numpy as np
-import tensorflow.compat.v1 as tf
+import tensorflow as tf
 
 ##from scipy.misc import imread, imresize, imsave
 from cv2 import imread
@@ -50,7 +50,7 @@ class Aracati(object):
     @staticmethod
     def load_data(path, width=256, height=128, is_sonar=False):
         data = imread(path).astype(np.float)
-        data = imresize(data, [height, width])
+        data = imresize(data, (width, height))
         data = data / 255.0
 
         if np.ndim(data) == 2:
